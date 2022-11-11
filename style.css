@@ -1,0 +1,43 @@
+:root {
+  --generic-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto 0;
+}
+
+section {
+  padding: 10px;
+  box-shadow: var(--generic-shadow);
+  margin-bottom: 1rem;
+  width: 90%;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+section.first {
+  color: green;
+}
+
+section.second {
+  color: red;
+}
+
+section.third {
+  color: blue;
+}
